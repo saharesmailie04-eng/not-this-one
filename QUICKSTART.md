@@ -23,8 +23,14 @@ code .env
 ### Step 3: Add Your Keys
 Edit `.env` and replace the placeholder values:
 ```bash
-PRICELAB_API_KEY=your_actual_pricelab_key_here
-MAPTIER_API_KEY=your_actual_maptier_key_here
+PRICELAB_API_KEY=your_pricelab_api_key_here
+MAPTIER_API_KEY=your_maptier_api_key_here
+```
+
+Change them to your actual API keys:
+```bash
+PRICELAB_API_KEY=pk_live_abc123...
+MAPTIER_API_KEY=mt_prod_xyz789...
 ```
 
 ### Step 4: Validate Configuration
