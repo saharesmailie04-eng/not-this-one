@@ -1,0 +1,21 @@
+{
+  "name": "hostkiit-backend",
+  "version": "1.0.0",
+  "description": "Backend API configuration for hostkiit.com with Pricelab and Maptier integrations",
+  "main": "backend/config/api-keys.js",
+  "scripts": {
+    "validate-keys": "node -e \"require('./backend/config/api-keys').validateConfigs()\"",
+    "test": "echo \"No tests specified yet\" && exit 0"
+  },
+  "keywords": [
+    "api",
+    "backend",
+    "pricelab",
+    "maptier"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
